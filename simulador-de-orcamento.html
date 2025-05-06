@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue May 06 2025 16:48:19 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue May 06 2025 21:22:39 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6808d457307550c325b7078a" data-wf-site="67e06ad41096ca3581239a8d">
 <head>
   <meta charset="utf-8">
@@ -748,10 +748,10 @@
                     <label for="paginas">Quantidade de Páginas</label>
                     <select id="paginas" class="form-control">
                       <option value="1">1 página (incluída no valor base)</option>
-                      <option value="2">2 páginas (+ R$ 30)</option>
-                      <option value="3">3 páginas (+ R$ 60)</option>
-                      <option value="4">4 páginas (+ R$ 90)</option>
-                      <option value="5">5 páginas (+ R$ 120)</option>
+                      <option value="2">2 páginas (+ R$ 100)</option>
+                      <option value="3">3 páginas (+ R$ 200)</option>
+                      <option value="4">4 páginas (+ R$ 300)</option>
+                      <option value="5">5 páginas (+ R$ 400)</option>
                     </select>
                   </div>
                   <div class="form-group">
@@ -771,7 +771,7 @@
                     <label class="checkbox-label">
                       <input type="checkbox" class="checkbox-input" id="textos-originais">
                       <span class="checkmark"></span>
-                      Textos Originais - Redação Profissional (+ R$ 30)
+                      Textos Originais - Redação Profissional + Uso de palavras CHAVE (+ R$ 50)
                     </label>
                   </div>
                   <div class="checkbox-group">
@@ -940,28 +940,28 @@
                       <label class="checkbox-label">
                         <input type="checkbox" class="checkbox-input" id="recurso-blog">
                         <span class="checkmark"></span>
-                        Área de Blog (+ R$ 150)
+                        Área de Blog (+ R$ 200)
                       </label>
                     </div>
                     <div class="checkbox-group">
                       <label class="checkbox-label">
                         <input type="checkbox" class="checkbox-input" id="recurso-membros">
                         <span class="checkmark"></span>
-                        Área de Membros (+ R$ 100)
+                        Área de Membros (+ R$ 200)
                       </label>
                     </div>
                     <div class="checkbox-group">
                       <label class="checkbox-label">
                         <input type="checkbox" class="checkbox-input" id="recurso-pagamentos">
                         <span class="checkmark"></span>
-                        Sistema de Pagamentos (+ R$ 150)
+                        Sistema de Pagamentos (+ R$ 200)
                       </label>
                     </div>
                     <div class="checkbox-group">
                       <label class="checkbox-label">
                         <input type="checkbox" class="checkbox-input" id="recurso-agendamento">
                         <span class="checkmark"></span>
-                        Agendamento Online (+ R$ 80)
+                        Agendamento Online (+ R$ 100)
                       </label>
                     </div>
                   </div>
@@ -1072,7 +1072,7 @@
                     'premium': 2
                 };
                 // Valor por página adicional (30 reais por página extra)
-                const valorPorPaginaExtra = 30;
+                const valorPorPaginaExtra = 100;
                 // Valor por idioma adicional (100 reais)
                 const valorPorIdioma = 100;
                 // Valores adicionais por prazo
@@ -1083,16 +1083,16 @@
                 };
                 // Valores adicionais
                 const valoresAdicionais = {
-                    'textos-originais': 30,
+                    'textos-originais': 50,
                     'revisao-textos': 0,
                     'integracao-formulario': 0,
                     'integracao-whatsapp': 0,
                     'integracao-redes-sociais': 0,
                     'integracao-facebook-pixel': 0,
                     'integracao-google-analytics': 0,
-                    'recurso-blog': 150,
-                    'recurso-membros': 100,
-                    'recurso-pagamentos': 150,
+                    'recurso-blog': 200,
+                    'recurso-membros': 200,
+                    'recurso-pagamentos': 200,
                     'recurso-agendamento': 100
                 };
                 // Valores de manutenção
