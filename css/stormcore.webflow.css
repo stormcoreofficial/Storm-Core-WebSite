@@ -1204,7 +1204,7 @@ a {
 
 .pricing-content-block {
   border-bottom: 1px solid #f0f0f0;
-  padding: 0 28px 28px;
+  padding: 15px 28px;
 }
 
 .pricing-content-block.first {
@@ -1335,12 +1335,14 @@ a {
 .image-section-overlay.color {
   background-color: #1f6fffe6;
   padding-top: 95px;
+  padding-bottom: 80px;
 }
 
 .section-feature2 {
   background-image: url('../images/Photo-5.jpg');
   background-position: 50%;
   background-size: cover;
+  position: relative;
 }
 
 .feature-info-column {
@@ -1489,6 +1491,23 @@ a {
 
 .footer-social-icon:hover {
   background-color: #1f6fff;
+}
+
+.div-block-97 {
+  z-index: 1;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  background-color: #81a1ff;
+  border-radius: 1000px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  bottom: -5vw;
+  left: 4vw;
+  right: auto;
 }
 
 @media screen and (min-width: 1280px) {
