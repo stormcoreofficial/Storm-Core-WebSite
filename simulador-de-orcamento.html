@@ -1005,19 +1005,20 @@
                 const valor = document.getElementById('valor-orcamento').textContent;
                 const valorDesconto = document.getElementById('valor-desconto').textContent;
                 // Montar a mensagem
-                const mensagem = `*SOLICITAÇÃO DE ORÇAMENTO*%0A%0A` +
-                                 `*Tipo de Projeto:* ${tipoProjeto}%0A` +
-                                 `*Complexidade:* ${complexidade}%0A` +
-                                 `*Quantidade de Páginas:* ${paginas}%0A` +
-                                 `*Idiomas:* ${idiomas}%0A` +
-                                 `*Seções Incluídas:* ${secoes}%0A` +
-                                 `*Prazo de Entrega:* ${prazo}%0A` +
-                                 `*Recursos Adicionais:* ${recursos}%0A` +
-                                 `*Manutenção:* ${manutencao}%0A` +
-                                 `*Informações Adicionais:* ${informacoes}%0A%0A` +
-                                 `*VALOR ESTIMADO:* ${valor}%0A` +
-                                 `*VALOR COM DESCONTO:* ${valorDesconto}%0A%0A` +
-                                 `Vi que ganhei 20% de desconto, gostaria de confirmar este orçamento ou tirar dúvidas.`;
+                const mensagem = `*SOLICITAÇÃO DE ORÇAMENTO*\n\n` +
+                 `*Tipo de Projeto:* ${tipoProjeto}\n` +
+                 `*Complexidade:* ${complexidade}\n` +
+                 `*Quantidade de Páginas:* ${paginas}\n` +
+                 `*Idiomas:* ${idiomas}\n` +
+                 `*Seções Incluídas:* ${secoes}\n` +
+                 `*Prazo de Entrega:* ${prazo}\n` +
+                 `*Recursos Adicionais:* ${recursos}\n` +
+                 `*Manutenção:* ${manutencao}\n` +
+                 `*Informações Adicionais:* ${informacoes}\n\n` +
+                 `*VALOR ESTIMADO:* ${valor}\n` +
+                 `*VALOR COM DESCONTO:* ${valorDesconto}\n\n` +
+                 `Vi que ganhei 20% de desconto, gostaria de confirmar este orçamento ou tirar dúvidas.`;
+
                 // Número de WhatsApp (substitua pelo seu número)
                 const numeroWhatsApp = '5512992526242';
                 // URL para abrir o WhatsApp
